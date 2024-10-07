@@ -1,6 +1,6 @@
-package src.academy.devdojo.maratonajava.introducao;
+package src.academy.devdojo.maratonajava.introduction;
 
-public class Main {
+public class Aula02TiposPrimitivos {
     public static void main(String[] args) {
         System.out.println("KA-ME-HA-ME-HAAAAAAAA");
     }
