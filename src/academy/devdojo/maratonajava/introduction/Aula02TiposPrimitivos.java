@@ -2,6 +2,7 @@ package src.academy.devdojo.maratonajava.introduction;
 
 public class Aula02TiposPrimitivos {
     public static void main(String[] args) {
-        System.out.println("KA-ME-HA-ME-HAAAAAAAA");
+        int age = 10;
+        System.out.println("Age is: " + age + ".");
     }
 }
