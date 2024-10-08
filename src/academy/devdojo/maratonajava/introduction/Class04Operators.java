@@ -4,7 +4,7 @@ public class Class04Operators {
 
     public static void main(String[] args) {
         // + - / *
-        int number01 = 10;
+        /*int number01 = 10;
         int number02 = 20;
         int plus = number01 + number02;
         int minus = number01 - number02;
@@ -29,6 +29,19 @@ public class Class04Operators {
         System.out.println("isTenLowerOrEqualsThanTwenty: " + isTenLowerOrEqualsThanTwenty );
         System.out.println("isTenGreaterOrEqualsThanTwenty: " + isTenGreaterOrEqualsThanTwenty );
         System.out.println("isTenDifferentThanTwenty: " + isTenDifferentThanTwenty );
-        System.out.println("isTenEqualsThanTwenty: " + isTenEqualsThanTwenty);
+        System.out.println("isTenEqualsThanTwenty: " + isTenEqualsThanTwenty);*/
+
+        int age = 29;
+        float salary = 3500F;
+        boolean isLegalOlderThanThirty = age >= 30 && salary >= 4612;
+        boolean isLegalYoungerThanThirty = age < 30 && salary >= 3361;
+        System.out.println("isLegalOlderThanThirty: " + isLegalOlderThanThirty );
+        System.out.println("isLegalYoungerThanThirty: " + isLegalYoungerThanThirty );
+
+        double correntAccount = 299;
+        double savingsAccount = 3000;
+        float playstationPrice = 500;
+        boolean canBeBought = correntAccount > playstationPrice || savingsAccount > playstationPrice;
+        System.out.println("canBeBought: " + canBeBought);
     }
 }
