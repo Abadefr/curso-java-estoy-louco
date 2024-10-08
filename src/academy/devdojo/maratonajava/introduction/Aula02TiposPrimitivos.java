@@ -10,9 +10,11 @@ public class Aula02TiposPrimitivos {
         short shortAge = 10;
         boolean falsce = false;
         char carctere = '\u0041';
+        String name = "Goku";
 
         System.out.println(falsce);
         System.out.println("char" + carctere);
         System.out.println("Age is: " + age + " years old.");
+        System.out.println("Hi I am " + name + "!");
     }
 }
