@@ -42,6 +42,6 @@ public class Class04Operators {
         double savingsAccount = 3000;
         float playstationPrice = 500;
         boolean canBeBought = correntAccount > playstationPrice || savingsAccount > playstationPrice;
-        System.out.println("canBeBought: " + canBeBought);
+        System.out.println("can be bought ?: " + canBeBought);
     }
 }
