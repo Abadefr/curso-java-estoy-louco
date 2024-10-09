@@ -2,7 +2,7 @@ package src.academy.devdojo.maratonajava.introduction;
 
 public class conditional02 {
     public static void main(String[] args) {
-        float salaryManeger = 5000;
+        float salaryManager = 5000;
         float salaryDeveloper = 3500;
         /*if (salaryManager > salaryDeveloper
         if (salaryManager < salaryDeveloper
