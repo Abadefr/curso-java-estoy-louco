@@ -6,5 +6,12 @@ public class iVariablesExercise02 {
         double taxPercentage = 0.1;
         double taxAmoutFromSalary = salary * taxPercentage;
         System.out.println(taxAmoutFromSalary);
+
+        boolean condition = false;
+        if (condition == true) {
+            System.out.println("Inside if instruction");
+        } else {
+            System.out.println("Inside else");
+        }
     }
 }
