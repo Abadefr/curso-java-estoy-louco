@@ -10,3 +10,4 @@ public class iVariablesExercise01 {
         System.out.println("Age Difference is :" + ageDifference + ".");
     }
 }
+
